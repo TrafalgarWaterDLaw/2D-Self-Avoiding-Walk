@@ -14,7 +14,7 @@ function make2DArray(cols, rows) {
 
 //Make a 2D array
 function setup() {
-	createCanvas(400, 400)
+	createCanvas(window.innerHeight, window.innerWidth)
 	cols = floor(width / spacing)
 	rows = floor(height / spacing)
 	x = cols / 2
